@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="ftask1.js"></script>
+    <title>Final Lab Task 1</title>
+    <style>
+        #int1 {
+            margin-left: 35px;
+        }
+
+        #int2 {
+            margin-left: 16px;
+        }
+
+        #int3 {
+            margin-left: 78px;
+        }
+
+        #field {
+            width: 30%;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset id="field">
+        <form name="form">
+            <label for="num1">First Number:</label>
+            <input id="int1" type="text" name="number1">
+            <br>
+            <br>
+            <label for="num2">Second Number:</label>
+            <input id="int2" type="text" name="number2">
+            <br>
+            <br>
+            <label for="num3">Result:</label>
+            <input id="int3" type="text" name="result"readonly>
+            <br>
+            <br>
+            <input type="button" value="Addition" onclick="add()">
+            <input type="button" value="Subtraction" onclick="subtract()">
+            <input type="button" value="Multiply" onclick="multiply()">
+            <input type="button" value="Divide" onclick="divide()">
+            <input type="button" value="Clear" onclick="clearbtn()">
+            <input type="button" value="About" onclick="alertbtn()">
+        </form>
+    </fieldset>
+</body>
+</html>
